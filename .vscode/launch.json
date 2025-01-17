@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ReportGenerationApp",
+            "request": "launch",
+            "mainClass": "ReportGenerationApp",
+            "projectName": "HospitalManagement_ccda831"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "HospitalManagement_ccda831"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "-cp .;lib/mysql-connector-java-9.1.0.jar"
+        }
+    ]
+}
